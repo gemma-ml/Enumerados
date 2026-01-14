@@ -1,13 +1,9 @@
 public class main {
-    public enum Inmobiliario{
-        PISO,
-        GARAJE,
-        MANSION
-    }
     public static void main(String[] args) {
-        boolean git = true;
-        Inmobiliario pablo = Inmobiliario.PISO;
-        System.out.println(pablo);
+        //Inmobiliario pablo = Inmobiliario.PISO;
+        Color verde = Color.VERDE;
+        System.out.println(verde.getCodigo() + " " + verde.getNum());
+        
         
     }  
 }
